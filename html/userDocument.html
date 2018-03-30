@@ -1,0 +1,168 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>个人资料</title>
+    <link href="../Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/userDocument.css"/>
+    <link rel="stylesheet" href="../css/headerAndFooter.css">
+</head>
+
+
+<body>
+
+<header>
+    <nav class="header">
+        <img class="logo" src="../images/homePage-logo.png"/><!--logo-->
+        <a href="./dataDevices.html" class="items">首页</a>
+        <a href="./DeviceExplore.html" class="items">设备探索</a>
+        <a href="./devicesList.html" class="items">硬件展示</a>
+
+        <div class="logined">
+            <a href="./UserManage.html" class="developerBtn">开发者中心</a>
+            <a href="./UserHelp.html" class="icon-bell bell"></a>
+            <a href="./userDocument.html" class="icon-user user"></a>
+        </div>
+    </nav>
+</header>
+
+<div class="content">
+   <div class="title">
+       <div class="text">个人资料</div>
+       <div class="edit">
+           <a class="button">编辑</a>
+           <a  href="./login.html" class="button" id="quitAccount" style="width: 120px;">退出当前账号</a></div>
+   </div>
+   <form id="form">
+       <div class="form-row">
+           <h3>基本信息</h3>
+           <hr style="color: #DDE2E6"/>
+       </div>
+       <div class="form-row" style="height: 150px">
+           <label>头像：</label>
+           <div class="avatarBox">
+               <input type="file" id="avatarSelect"/>
+               <img src="../images/defaultAvatar.jpg" id="avatarPreview"/>
+           </div>
+           <input type="text" id="avatar" style="display: none"/>
+       </div>
+       <div class="form-row">
+           <label>用户名：</label>
+           <div class="d">
+               <span id="showName">xupt123456</span>
+               <a id="changePassword">&emsp;修改密码</a>
+           </div>
+       </div>
+       <div class="form-row">
+           <label>性别：</label>
+           <div class="d">
+               <span id="showSex">无</span>
+           </div>
+           <input type="hidden" name="sex" id="sex"/>
+       </div>
+       <div class="form-row">
+           <label>生日：</label>
+           <div class="d">
+               <span id="showBirthday">无</span>
+           </div>
+           <input type="hidden" name="birthday" id="birthday"/>
+       </div>
+       <div class="form-row">
+           <label>所在地：</label>
+           <div class="d">
+               <span id="showAddress">无</span>
+           </div>
+           <input type="hidden" name="address" id="address"/>
+       </div>
+       <div class="form-row">
+           <h3>联系信息</h3>
+           <hr style="color: #DDE2E6"/>
+       </div>
+       <div class="form-row" style="height: 30px">
+           <label>联系电话：</label>
+           <div class="d">
+               <span id="showPhone">无</span>
+           </div>
+           <input type="hidden" name="phoneNumber" id="phoneNumber"/>
+       </div>
+       <label class="error"></label>
+
+
+       <div class="form-row" style="height: 30px">
+           <label>邮箱：</label>
+           <div class="d">
+               <span id="showEmail">无</span>
+           </div>
+           <input type="hidden" name="email" id="email"/>
+       </div>
+       <label class="error"></label>
+
+       <div class="form-row" style="height: 30px">
+           <label>QQ：</label>
+           <div class="d">
+               <span id="showQQ">无</span>
+           </div>
+           <input type="hidden"  name="QQ" id="QQ"/>
+       </div>
+       <label class="error"></label>
+
+       <div id="buttonContainer">
+           <span class="submitButton">提交</span>
+           <span class="cancelButton">取消</span>
+       </div>
+   </form>
+
+   <div class="changePassword">
+       <form id="changePasswordForm">
+           <h2 style="text-align: center">账号管理</h2>
+           <div class="row">
+               <span class="label">用户名：</span>
+           </div>
+           <div class="row">
+               <span class="label">旧密码：</span>
+               <input id='oldPW' name="oldPw" type="password" placeholder="请输入原始密码"/>
+           </div>
+           <div class="row">
+               <span class="label">新密码：</span>
+               <input type="password" id="newPw" name="newPW" placeholder="请输入新密码"/>
+           </div>
+           <div class="row">
+               <span class="label">新密码：</span>
+               <input type="password" id='confirmPw' name='confirmPW' placeholder="请确认新密码"/>
+           </div>
+
+           <div class="button">
+               <span id="changePasswordSubmit">提交</span>
+               <span id="changePasswordCancel">取消</span>
+           </div>
+       </form>
+   </div>
+</div>
+
+<footer class="footer">
+    <div class="link">
+        <h2>友情链接</h2>
+        <a href="http://iot.10086.cn/cn/">中移物联网</a>
+        <a href="http://iot.10086.cn/cn/corp/priv-net">物联网专网</a>
+        <a href="https://www.oschina.net/">开源中国</a>
+        <a href="http://bbs.elecfans.com/">电子发烧友</a>
+    </div>
+    <div class="app">
+        <h2>APP下载</h2>
+        <img src="../images/homePage-2DCode.png" style="width: 150px; height: 150px"/>
+    </div>
+    <div class="contact">
+        <h2>联系方式</h2>
+        <a href="javascript: return false;">电话：029-88166000</a>
+        <a href="javascript: return false;">传真：029-88166000</a>
+        <a href="javascript: return false;">QQ：1234567890</a>
+        <a href="javascript: return false;">WeChat: xingongshiyanshi</a>
+        <a href="javascript: return false;">邮箱：1234567890@qq.com</a>
+        <a href="javascript: return false;">地址：陕西省西安市长安区西安邮电大学</a>
+    </div>
+</footer>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery.validate.min.js"></script>
+<script src="../js/userDocument.js"></script>
+</body>
+</html>
