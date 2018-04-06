@@ -120,7 +120,6 @@
         <div class="right_con">
           <div class="filter" >
             <ul>
-              <li><a href="javascript:aaa('{{:~root.id}}','{{:#data}}',0)">实时</a></li>
               <li><a href="javascript:aaa('{{:~root.id}}','{{:#data}}',1)">最近一天</a></li>
               <li><a href="javascript:aaa('{{:~root.id}}','{{:#data}}',2)">最近一周</a></li>
               <li><a href="javascript:aaa('{{:~root.id}}','{{:#data}}',3)">最近一月</a></li>
@@ -202,7 +201,28 @@
 
   //设备id，哪个传感器，时段,绘制类型(可选)，纵坐标(可选),单位(可选)
   function aaa(id,sensor,no,ctype,ytitle,unit){
-    if (ytitle == undefined) ytitle = '';
+      var path="";
+      switch (sensor){
+          case "温度":path="wendu";unit="℃";break;
+          case "湿度":path="shidu";unit="%RH";break;
+          case "电压":path="dianya";unit="KV";break;
+          case "电流":path="dianliu";unit="A";break;
+          default:path="wendu";unit="℃";
+      }
+    if (ytitle === undefined){
+          ytitle = '';
+      }
+
+    if(no==0){
+        no="_2";
+    }else{
+        switch (no){
+            case 1:no="_1";break;
+            case 2:no="_2";break;
+            case 3:no="_3";break;
+            default:no="-1";break;
+        }
+    }
     var step = false;
 //    if (ctype == undefined || ctype == null || ctype == '')
 //      ctype = $("#ctype" + id).val();
@@ -225,7 +245,7 @@
 //    $.post("http://139.199.28.148:8080/smart-sso-demo/data/findNew",parmas,function(data){
 //
 //    });
-    $.get("../data/wendu.txt", function(data) {
+    $.get("../data/"+path+""+no+".txt", function(data) {
       console.log(data);
       if (data == "" || data == undefined || data == null) {
         $("#" + containerId).html('<div style="color:gray;padding-top:80px;">No data.</div>');
