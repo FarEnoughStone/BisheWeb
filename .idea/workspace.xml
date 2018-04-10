@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4732caba-c40d-4ea4-86f6-47dea4ec469a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/dianliu_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dianliu_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dianliu_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dianya_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dianya_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dianya_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/shidu_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/shidu_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/shidu_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/wendu_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/wendu_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/wendu_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datawendu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/wendu.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/dataDevices.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/dataDevices.html" afterDir="false" />
     </list>
     <ignored path="ElectricSafetySteward.iws" />
@@ -145,8 +130,8 @@
       <file leaf-file-name="dataDevices.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/dataDevices.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="217" column="10" lean-forward="true" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
+            <state relative-caret-position="410">
+              <caret line="219" column="3" lean-forward="true" selection-start-line="219" selection-start-column="3" selection-end-line="219" selection-end-column="3" />
               <folding>
                 <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -236,7 +221,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="488" />
     <option name="y" value="136" />
     <option name="width" value="1161" />
@@ -346,14 +331,15 @@
       <workItem from="1522398286132" duration="1588000" />
       <workItem from="1522991113082" duration="3499000" />
       <workItem from="1522994641151" duration="7949000" />
+      <workItem from="1523282612388" duration="731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24001000" />
+    <option name="totallyTimeSpent" value="24732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="488" y="136" width="1161" height="744" extended-state="0" />
+    <frame x="488" y="136" width="1161" height="744" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.48511383" visible="true" weight="0.19213974" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -377,20 +363,20 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49036777" visible="true" weight="0.21814093" />
       <window_info id="Structure" order="2" sideWeight="0.50963223" weight="0.1962406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
       <window_info id="Favorites" order="0" sideWeight="0.5061296" side_tool="true" weight="0.13568217" />
     </layout-to-restore>
   </component>
@@ -902,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/dataDevices.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="217" column="10" lean-forward="true" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
+        <state relative-caret-position="410">
+          <caret line="219" column="3" lean-forward="true" selection-start-line="219" selection-start-column="3" selection-end-line="219" selection-end-column="3" />
           <folding>
             <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
